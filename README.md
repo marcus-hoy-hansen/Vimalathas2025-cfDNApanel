@@ -1,6 +1,6 @@
 # Targeted cfDNA gene panel for investigating circulating tumor DNA (ctDNA) in DLBCL, Vimalathas et al. 2025
-UMI pipeline in targeted sequencing of cfDNA
-[See the BED design coordinates](Probes_merged_ok_OUH_Bcell_clonality_v1_1X_TE-94124764_hg38.bed)
+The provided panel [See the BED design coordinates](Probes_merged_ok_OUH_Bcell_clonality_v1_1X_TE-94124764_hg38.bed) is implemented in a UMI-baed targeted sequencing pipeline based on cfDNA from DLBCL. Workflow consists of UMI processing [see example code](umi_analyze.sh) and variant calling followed by variant recalling [see example code](recall.sh), and annotation [see example code](annotates.sh)
+
 
 
 ## Non-immunoglobulin genes included (50 genes)
