@@ -1,6 +1,15 @@
 # Targeted cfDNA gene panel for investigating circulating tumor DNA (ctDNA) in DLBCL, Vimalathas et al. 2025
 The provided [panel](Probes_merged_ok_OUH_Bcell_clonality_v1_1X_TE-94124764_hg38.bed) is implemented in a UMI-based targeted sequencing pipeline based on cfDNA from DLBCL. Workflow consists of [UMI processing](umi_analyze.sh) and variant calling followed by variant [recalling](recall.sh), and [annotation](annotates.sh).
 
+## Title
+Liquid Biopsy for Enhanced Specificity in Identifying Somatic Mutations in Aggressive Non-Hodgkin Large B-cell Lymphoma: A Comparative Study of Cell-free DNA and Formalin-Fixed Paraffin-Embedded Tissue 
+
+## Abstract
+Introduction: Formalin-fixed paraffin-embedded (FFPE) tumor biopsy is the current mainstay of genotyping, but is limited by its invasiveness and tumor heterogeneity. Plasma cell-free DNA (cfDNA) constitutes a minimally invasive alternative that may better capture tumor-derived profiles from circulating tumor DNA (ctDNA). This study compares the performance and genomic concordance of cfDNA and FFPE tumor DNA in aggressive non-Hodgkin large B-cell lymphoma. 
+Methods: Paired diagnostic FFPE tissue and plasma samples from 15 patients were sequenced with a custom 53-gene panel. 
+Results: Detection thresholds were empirically guided at 1% variant allele frequency (VAF) for cfDNA and 10% for unpaired FFPE DNA. The median number of cfDNA variants was 6 (interquartile range (IQR): 2–11) versus 63 (IQR: 15–250) in FFPE DNA at 1% VAF. Collectively, 102 somatic variants were shared between cfDNA and FFPE DNA with a median of 5 (range: 0–23). cfDNA showed a five-fold lower median VAF for shared variants than FFPE DNA (7% vs. 36%, p < 0.0001).  Eighty percent of patients harbored at least one cfDNA variant. A maximum cfDNA recall rate of 83% was observed at FFPE DNA VAF >50%. COSMIC database overlap was twice as high for cfDNA compared to FFPE DNA (22% vs. 11%) at 10% VAF.
+Conclusion: cfDNA has superior specificity for somatic mutation detection but lower sensitivity than FFPE DNA. Modest concordance was demonstrated between the two compartments. Our results support a complementary role of ctDNA in mutational profiling at a 1% VAF threshold in a clinically applicable set-up.
+
 
 
 ## Non-immunoglobulin genes included (50 genes)
